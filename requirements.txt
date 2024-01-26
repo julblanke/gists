@@ -1,2 +1,5 @@
 numpy
 matplotlib
+pandas
+photonai
+photonai-neuro
