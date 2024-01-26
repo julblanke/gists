@@ -24,8 +24,8 @@ def plot_confusion_matrix(cm, classes, normalize=False, title='Confusion Matrix'
         plt.text(j, i, format(cm[i, j], fmt), horizontalalignment="center", color="white" if cm[i, j] > thresh else "black")
 
     plt.tight_layout()
-    plt.ylabel('Steroidfreie Remission True')
-    plt.xlabel('Steroidfreie Remission Predicted')
+    plt.ylabel('var True')
+    plt.xlabel('var Predicted')
 
 # Example usage
 sensitivity = 0.65
